@@ -7,6 +7,7 @@ router.post(`/employees/add`, (req, res) => {
 
 router.get('/employees/list', (req, res) => {
     res.send('G/M employee list');
+    console.log('Hello');
 });
 
 router.put('/employees/update', (req, res) => {
